@@ -1,6 +1,7 @@
 # windows.vim
 
-![image](https://github.com/cherryramatisdev/windows.vim/assets/86631177/53a75f3e-9cfe-4b8f-884b-0716f777b0a6)
+<img src="https://github.com/cherryramatisdev/windows.vim/assets/86631177/53a75f3e-9cfe-4b8f-884b-0716f777b0a6" alt="Windows" width="200" height="200">
+
 
 A plugin to bring common keybinds for managing splits and tabs in vim.
 
