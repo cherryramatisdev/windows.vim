@@ -2,6 +2,16 @@
 
 A plugin to bring common keybinds for managing splits and tabs in vim.
 
+## Installation
+
+This plugin can be installed as follows using some package manager like [vim-plug](https://github.com/junegunn/vim-plug) or any other of your choice:
+
+```vim
+call plug#begin()
+Plug 'cherryramatisdev/windows.vim'
+call plug#end()
+```
+
 ## Commands & Keybinds
 
 - `<C-w>!` `:TransformSplitIntoTab`: Transform the current split into a new tab and delete the split similar to the tmux bind
