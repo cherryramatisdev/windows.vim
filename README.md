@@ -12,10 +12,13 @@ Plug 'cherryramatisdev/windows.vim'
 call plug#end()
 ```
 
+> Bonus Tip: it's recommended to use the undoquit plugin for more power when managing splits: <https://github.com/AndrewRadev/undoquit.vim>
+
 ## Commands & Keybinds
 
-- `<C-w>!` `:TransformSplitIntoTab`: Transform the current split into a new tab and delete the split similar to the tmux bind
-- `<C-w>t` `:OpenCurrentSplitIntoTab`: Open the current split path into a new tab, **but keep the split opened on the previous tab**
+- `<C-w>!` `:WindowTransformSplitIntoTab`: Transform the current split into a new tab and delete the split similar to the tmux bind
+- `<C-w>t` `:WindowOpenCurrentSplitIntoTab`: Open the current split path into a new tab, **but keep the split opened on the previous tab**
+- `<C-w>z` `:WindowZoom`: Toggle zoom stage for the current split
 
 ## How to contribute
 
